@@ -6,8 +6,8 @@ def programa():
         
         if web[:7] == "http://";
             web = web[:7]
-        if web[:7] == "https://";
-            web = web[:7]
+        if web[:8] == "https://";
+            web = web[:8]
             
         lista = ["", "mail.", "ftp."]
 		
